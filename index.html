@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="envelope-wrapper">
+        <div class="envelope">
+          <div class="letter">
+            <div class="text">
+              <strong>Dear Minh Hằng</strong>
+              <p>
+                Trung thu đến òii, nayy em pé của tuii dui hongg, ngày hôm nay
+                thế nàooo, dù bà có như thế nào đi chăng nữaaa thì bà vẫn là 1
+                bông hoa đẹp nhấttt trong mắtt tuiii, nên là tui mongg bà hãy
+                luôn mỉmm cười nhiềuu hơn nữaaa nhan :33 .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="heart"></div>
+      </div>
+    </div>
+    <script>
+      const envelope = document.querySelector(".envelope-wrapper");
+      envelope.addEventListener("click", () => {
+        envelope.classList.toggle("flap");
+      });
+    </script>
+  </body>
+</html>
